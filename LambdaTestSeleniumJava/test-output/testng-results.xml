@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="10" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-29T16:41:12 IST" name="Parallel Test Suite" finished-at="2022-08-29T16:44:08 IST" duration-ms="176805">
+    <groups>
+    </groups>
+    <test started-at="2022-08-29T16:41:12 IST" name="Chrome Test" finished-at="2022-08-29T16:42:03 IST" duration-ms="51906">
+      <class name="lambdatestjava.LambdaTestJava3">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:lambdatestjava.LambdaTestJava3@35d019a3]" started-at="2022-08-29T16:41:12 IST" name="setUp" finished-at="2022-08-29T16:41:43 IST" duration-ms="31582" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[88.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[WIN10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testScenario3()[pri:0, instance:lambdatestjava.LambdaTestJava3@35d019a3]" started-at="2022-08-29T16:41:43 IST" name="testScenario3" finished-at="2022-08-29T16:42:02 IST" duration-ms="18362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScenario3 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:lambdatestjava.LambdaTestJava3@35d019a3]" started-at="2022-08-29T16:42:02 IST" name="tearDown" finished-at="2022-08-29T16:42:03 IST" duration-ms="1895" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- lambdatestjava.LambdaTestJava3 -->
+      <class name="lambdatestjava.LambdaTestJava2">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:lambdatestjava.LambdaTestJava2@55b699ef]" started-at="2022-08-29T16:41:12 IST" name="setUp" finished-at="2022-08-29T16:41:34 IST" duration-ms="21968" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[88.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[WIN10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testScenario2()[pri:0, instance:lambdatestjava.LambdaTestJava2@55b699ef]" started-at="2022-08-29T16:41:34 IST" name="testScenario2" finished-at="2022-08-29T16:41:39 IST" duration-ms="5120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScenario2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:lambdatestjava.LambdaTestJava2@55b699ef]" started-at="2022-08-29T16:41:39 IST" name="tearDown" finished-at="2022-08-29T16:41:41 IST" duration-ms="1925" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- lambdatestjava.LambdaTestJava2 -->
+      <class name="lambdatestjava.LambdaTestJava">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:lambdatestjava.LambdaTestJava@74f0ea28]" started-at="2022-08-29T16:41:12 IST" name="setUp" finished-at="2022-08-29T16:41:23 IST" duration-ms="11129" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[88.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[WIN10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testScenario1()[pri:0, instance:lambdatestjava.LambdaTestJava@74f0ea28]" started-at="2022-08-29T16:41:23 IST" name="testScenario1" finished-at="2022-08-29T16:41:28 IST" duration-ms="5467" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScenario1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:lambdatestjava.LambdaTestJava@74f0ea28]" started-at="2022-08-29T16:41:28 IST" name="tearDown" finished-at="2022-08-29T16:41:30 IST" duration-ms="1914" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- lambdatestjava.LambdaTestJava -->
+    </test> <!-- Chrome Test -->
+    <test started-at="2022-08-29T16:42:04 IST" name="Firefox Test" finished-at="2022-08-29T16:42:42 IST" duration-ms="38602">
+      <class name="lambdatestjava.LambdaTestJava3">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:lambdatestjava.LambdaTestJava3@13c9d689]" started-at="2022-08-29T16:42:04 IST" name="setUp" finished-at="2022-08-29T16:42:23 IST" duration-ms="19329" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[82.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[WIN7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testScenario3()[pri:0, instance:lambdatestjava.LambdaTestJava3@13c9d689]" started-at="2022-08-29T16:42:23 IST" name="testScenario3" finished-at="2022-08-29T16:42:40 IST" duration-ms="16955" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScenario3 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:lambdatestjava.LambdaTestJava3@13c9d689]" started-at="2022-08-29T16:42:40 IST" name="tearDown" finished-at="2022-08-29T16:42:42 IST" duration-ms="2304" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- lambdatestjava.LambdaTestJava3 -->
+      <class name="lambdatestjava.LambdaTestJava2">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:lambdatestjava.LambdaTestJava2@28701274]" started-at="2022-08-29T16:42:04 IST" name="setUp" finished-at="2022-08-29T16:42:11 IST" duration-ms="7631" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[82.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[WIN7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testScenario2()[pri:0, instance:lambdatestjava.LambdaTestJava2@28701274]" started-at="2022-08-29T16:42:11 IST" name="testScenario2" finished-at="2022-08-29T16:42:16 IST" duration-ms="4646" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScenario2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:lambdatestjava.LambdaTestJava2@28701274]" started-at="2022-08-29T16:42:16 IST" name="tearDown" finished-at="2022-08-29T16:42:18 IST" duration-ms="2555" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- lambdatestjava.LambdaTestJava2 -->
+      <class name="lambdatestjava.LambdaTestJava">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:lambdatestjava.LambdaTestJava@36fc695d]" started-at="2022-08-29T16:42:04 IST" name="setUp" finished-at="2022-08-29T16:42:31 IST" duration-ms="27657" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[82.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[WIN7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testScenario1()[pri:0, instance:lambdatestjava.LambdaTestJava@36fc695d]" started-at="2022-08-29T16:42:31 IST" name="testScenario1" finished-at="2022-08-29T16:42:37 IST" duration-ms="5648" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScenario1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:lambdatestjava.LambdaTestJava@36fc695d]" started-at="2022-08-29T16:42:37 IST" name="tearDown" finished-at="2022-08-29T16:42:39 IST" duration-ms="2477" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- lambdatestjava.LambdaTestJava -->
+    </test> <!-- Firefox Test -->
+    <test started-at="2022-08-29T16:42:42 IST" name="Microsoft Edge Test" finished-at="2022-08-29T16:43:33 IST" duration-ms="51262">
+      <class name="lambdatestjava.LambdaTestJava3">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:lambdatestjava.LambdaTestJava3@776aec5c]" started-at="2022-08-29T16:42:42 IST" name="setUp" finished-at="2022-08-29T16:43:13 IST" duration-ms="30939" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[87.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[macOS Sierra]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testScenario3()[pri:0, instance:lambdatestjava.LambdaTestJava3@776aec5c]" started-at="2022-08-29T16:43:13 IST" name="testScenario3" finished-at="2022-08-29T16:43:31 IST" duration-ms="18252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScenario3 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:lambdatestjava.LambdaTestJava3@776aec5c]" started-at="2022-08-29T16:43:31 IST" name="tearDown" finished-at="2022-08-29T16:43:33 IST" duration-ms="2057" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- lambdatestjava.LambdaTestJava3 -->
+      <class name="lambdatestjava.LambdaTestJava2">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:lambdatestjava.LambdaTestJava2@5b7a5baa]" started-at="2022-08-29T16:42:42 IST" name="setUp" finished-at="2022-08-29T16:43:01 IST" duration-ms="18807" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[87.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[macOS Sierra]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testScenario2()[pri:0, instance:lambdatestjava.LambdaTestJava2@5b7a5baa]" started-at="2022-08-29T16:43:01 IST" name="testScenario2" finished-at="2022-08-29T16:43:05 IST" duration-ms="4170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScenario2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:lambdatestjava.LambdaTestJava2@5b7a5baa]" started-at="2022-08-29T16:43:05 IST" name="tearDown" finished-at="2022-08-29T16:43:07 IST" duration-ms="1987" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- lambdatestjava.LambdaTestJava2 -->
+      <class name="lambdatestjava.LambdaTestJava">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:lambdatestjava.LambdaTestJava@5bf0d49]" started-at="2022-08-29T16:42:42 IST" name="setUp" finished-at="2022-08-29T16:42:53 IST" duration-ms="10561" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[87.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[macOS Sierra]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testScenario1()[pri:0, instance:lambdatestjava.LambdaTestJava@5bf0d49]" started-at="2022-08-29T16:42:53 IST" name="testScenario1" finished-at="2022-08-29T16:42:58 IST" duration-ms="5335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScenario1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:lambdatestjava.LambdaTestJava@5bf0d49]" started-at="2022-08-29T16:42:58 IST" name="tearDown" finished-at="2022-08-29T16:43:00 IST" duration-ms="2059" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- lambdatestjava.LambdaTestJava -->
+    </test> <!-- Microsoft Edge Test -->
+    <test started-at="2022-08-29T16:43:33 IST" name="IE Test" finished-at="2022-08-29T16:44:08 IST" duration-ms="34924">
+      <class name="lambdatestjava.LambdaTestJava3">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:lambdatestjava.LambdaTestJava3@3c46e67a]" started-at="2022-08-29T16:43:33 IST" name="setUp" finished-at="2022-08-29T16:43:50 IST" duration-ms="16435" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ie]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[11.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[WIN10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testScenario3()[pri:0, instance:lambdatestjava.LambdaTestJava3@3c46e67a]" started-at="2022-08-29T16:43:50 IST" name="testScenario3" finished-at="2022-08-29T16:43:55 IST" duration-ms="5615" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Please fill out this field.] but found [This is a required field]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Please fill out this field.] but found [This is a required field]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at lambdatestjava.LambdaTestJava3.testScenario3(LambdaTestJava3.java:60)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:47)
+at org.testng.internal.invokers.InvokeMethodRunnable.call(InvokeMethodRunnable.java:76)
+at org.testng.internal.invokers.InvokeMethodRunnable.run(InvokeMethodRunnable.java:33)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeWithTimeoutWithNoExecutor(MethodInvocationHelper.java:345)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeWithTimeout(MethodInvocationHelper.java:301)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScenario3 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:lambdatestjava.LambdaTestJava3@3c46e67a]" started-at="2022-08-29T16:43:55 IST" name="tearDown" finished-at="2022-08-29T16:43:57 IST" duration-ms="1788" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- lambdatestjava.LambdaTestJava3 -->
+      <class name="lambdatestjava.LambdaTestJava2">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:lambdatestjava.LambdaTestJava2@6c6cb480]" started-at="2022-08-29T16:43:33 IST" name="setUp" finished-at="2022-08-29T16:43:44 IST" duration-ms="10724" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ie]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[11.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[WIN10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testScenario2()[pri:0, instance:lambdatestjava.LambdaTestJava2@6c6cb480]" started-at="2022-08-29T16:43:44 IST" name="testScenario2" finished-at="2022-08-29T16:43:50 IST" duration-ms="5764" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [95] but found [51]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [95] but found [51]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at lambdatestjava.LambdaTestJava2.testScenario2(LambdaTestJava2.java:76)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:47)
+at org.testng.internal.invokers.InvokeMethodRunnable.call(InvokeMethodRunnable.java:76)
+at org.testng.internal.invokers.InvokeMethodRunnable.run(InvokeMethodRunnable.java:33)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeWithTimeoutWithNoExecutor(MethodInvocationHelper.java:345)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeWithTimeout(MethodInvocationHelper.java:301)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScenario2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:lambdatestjava.LambdaTestJava2@6c6cb480]" started-at="2022-08-29T16:43:50 IST" name="tearDown" finished-at="2022-08-29T16:43:52 IST" duration-ms="1977" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- lambdatestjava.LambdaTestJava2 -->
+      <class name="lambdatestjava.LambdaTestJava">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:lambdatestjava.LambdaTestJava@408d971b]" started-at="2022-08-29T16:43:33 IST" name="setUp" finished-at="2022-08-29T16:44:00 IST" duration-ms="26384" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ie]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[11.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[WIN10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testScenario1()[pri:0, instance:lambdatestjava.LambdaTestJava@408d971b]" started-at="2022-08-29T16:44:00 IST" name="testScenario1" finished-at="2022-08-29T16:44:07 IST" duration-ms="6731" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScenario1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:lambdatestjava.LambdaTestJava@408d971b]" started-at="2022-08-29T16:44:07 IST" name="tearDown" finished-at="2022-08-29T16:44:08 IST" duration-ms="1801" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- lambdatestjava.LambdaTestJava -->
+    </test> <!-- IE Test -->
+  </suite> <!-- Parallel Test Suite -->
+</testng-results>
